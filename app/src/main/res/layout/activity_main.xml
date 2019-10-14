@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="16dp"
+    tools:context=".Activities.MainActivity">
+    <ImageView
+        android:id="@+id/marcaImagen"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/biocaribe"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:id="@+id/btn_inciar"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/biocaribe1"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:text="Iniciar concurso de preguntas" />
+    <Button
+        android:id="@+id/btn_configurar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/biocaribe2"
+        android:text="Configurar concurso" />
+</LinearLayout>
